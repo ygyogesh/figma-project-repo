@@ -1,0 +1,125 @@
+body{
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+}
+
+/* *******************Header start ***************************************************** */
+
+header {
+    width: 100%;
+    position: relative;
+    background-color: darkblue;
+    display: flex;
+}
+
+/* logo section start**************************************************************************** */
+header .logo-section {
+    width: 26%;
+    display: flex;
+    background-color: yellow;
+}
+header .logo-section img{
+    width: 80px;
+    margin: 13px 0 13px 63px;}
+
+    
+header .logo-section p {
+        font-size:17px ;
+        margin: 26px 0 0 15px;
+        color: wheat;
+        font-weight:bold;
+        font-family: monospace;
+        font-stretch: extra-condensed;
+        font-style: italic;
+    }
+    
+    /* logo section end********************************************************************* */
+
+/* menu section srart (*******************************************************) */
+.menu-section{
+    width: 52%;
+    position: relative;
+    background-color: mediumblue;
+}
+.menu-section ul{
+    display: flex;
+    list-style: none;
+}
+.menu-section ul li{
+
+}
+.menu-section ul li a{
+text-decoration: none;
+margin: 31px;
+position: relative;
+top: 20px;
+font-size: 17px;
+font-weight: lighter;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: white;
+}
+.menu-section p {
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    font-weight: bolder;
+    color: white;
+  }
+
+
+
+
+
+/* menu section end **************************************************** */
+
+/* fa-fa section start ******************************************************* */
+.fa-fa-section {
+    width: 22%;
+    display: flex;
+    position: relative;
+    background-color: black;
+}
+
+.fa-fa-section a {
+    color: wheat;
+font-size: 22px;
+position: relative;
+left: 45px;
+top: 21px;
+margin: 13px;
+text-decoration: none;
+}
+
+.login i {
+    font-size: 12px;
+color:wheat;
+position: absolute;
+right: 24px;
+top: 38px;
+font-size: 23px;
+}
+
+/* fa -fa section end ******************************************** */
+nav{
+    width: 100%;
+    background-color: aquamarine;
+    position: relative;
+    bottom: 16px;
+}
+.menu-section1{
+
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    margin: 22px;
+}
