@@ -1,7 +1,11 @@
 body{
     padding: 0;
     margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     cursor: pointer;
+}
+ul{
+    list-style: none;
 }
 
 /* *******************Header start ***************************************************** */
@@ -17,21 +21,29 @@ header {
 header .logo-section {
     width: 26%;
     display: flex;
-    background-color: yellow;
 }
 header .logo-section img{
     width: 80px;
-    margin: 13px 0 13px 63px;}
+    margin: 1px 0 13px 63px;}
+    header .logo-section img:hover{
+        opacity: 0.6;
+        color: gold;
+    }
+
 
     
 header .logo-section p {
         font-size:17px ;
-        margin: 26px 0 0 15px;
+        margin: 16px 0 0 15px;
         color: wheat;
         font-weight:bold;
         font-family: monospace;
         font-stretch: extra-condensed;
         font-style: italic;
+    }
+    header .logo-section p:hover{
+        opacity: 0.5 ;
+        color: red;
     }
     
     /* logo section end********************************************************************* */
@@ -51,21 +63,33 @@ header .logo-section p {
 }
 .menu-section ul li a{
 text-decoration: none;
-margin: 31px;
+margin: 25px;
 position: relative;
-top: 20px;
+top: 12px;
 font-size: 17px;
 font-weight: lighter;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
 color: white;
 }
+.menu-section ul li a:hover{
+    opacity: 0.5;
+    color: aqua;
+}
 .menu-section p {
     position: absolute;
-    top: 20px;
+    top: 12px;
     right: 15px;
     font-weight: bolder;
     color: white;
   }
+nav .right-section ul li ul {
+    display: flex;
+    flex-direction: column;
+    
+}
+nav .right-section ul li ul a {
+    display: none;
+}
 
 
 
@@ -78,7 +102,6 @@ color: white;
     width: 22%;
     display: flex;
     position: relative;
-    background-color: black;
 }
 
 .fa-fa-section a {
@@ -86,40 +109,645 @@ color: white;
 font-size: 22px;
 position: relative;
 left: 45px;
-top: 21px;
+top: 12px;
 margin: 13px;
 text-decoration: none;
 }
 
+.fa-fa-section a:hover{
+    color: red;
+}
 .login i {
     font-size: 12px;
 color:wheat;
 position: absolute;
 right: 24px;
-top: 38px;
+top: 28px;
 font-size: 23px;
+}
+.login i:hover{
+    opacity: 0.5;
+    color: red;
 }
 
 /* fa -fa section end ******************************************** */
-nav{
+
+/* nav section started ***************************************************** */
+nav {
     width: 100%;
-    background-color: aquamarine;
+    background-color:wheat;
+    height: 41px;
     position: relative;
     bottom: 16px;
 }
-.menu-section1{
-
+nav .phone-section {
+    width: 40%;
+    
 }
 
-nav ul{
+nav .phone-section p {
+    position: absolute;
+    bottom: -7px;
+    left: 10px;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+nav .phone-section p:hover{
+    opacity: 0.6;
+    color: lawngreen;
+}
+
+/* nav .phone-section end *********************************************************** */
+/* nav .right sectione start ***************************************************************** */
+nav .right-section{
+    width: 59%;
+    /* background-color: red; */
+    position: absolute;
+    right:24px;
+}
+
+nav .right-section ul {
     display: flex;
     list-style: none;
 }
-nav ul li {
+nav .About-section ul {
+    flex-direction: column;
+
+    
+}
+nav .right-section ul a {
+    text-decoration: none;
+    margin: 32px;
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+    position: relative;bottom: 10px;
+}
+nav .right-section ul a:hover{
+    background-color: white;
+    border-radius: 3px;
+    color: blue;
+}
+
+/* nav section end ********************************************************* */
+/* photo section start ***************************************************** */
+.slider {
+    position: relative;
+    height: 75vh;
+    width: 85%;
+    overflow: hidden;
+    margin: auto;
+}
+.slide1{
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    animation: sliding 12s infinite;
+    animation-delay: 5s;
+}
+.slide1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 
 }
-nav ul li a{
-    text-decoration: none;
+@keyframes sliding {
+    30% {opacity: 1; }
+}
+
+marquee {
+    background-color: red;
+}
+
+ul {
+    display: flex;
+    color:black;
+    font-weight: 600;
+    
+}
+
+ul li  {
+    /* margin: 22px; */
+}
+
+
+
+
+
+
+
+
+
+
+/* photo animation end******************************************************* */
+
+/* contact page start from here ************************************************ */
+.container3 {
+    background-color:skyblue;
+    width: 100%;
+    height: 700px;
+    position: relative;
+    margin: auto;
+    top: 54px;
+}
+.container3  .inside-container {
+    background-color: white;
+    width: 68%;
+    height: 540px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+}
+.text {
+    position: absolute;
+    top: 12px;
+    left: 205px;`
+}
+.text h1 {
+    font-family: sans-serif;
+    color: blue;
+}
+
+.input1{
+    position: relative;
+    top: 93px;
+    left: 20px;
+    font-weight: bolder;
+}
+.input1 input {
+    width: 179px;
+    height: 35px;
+}
+
+.input2 {
+    position: relative;
+    top: 126px;
+    left: 20px;
+    font-weight: bolder;
+}
+.input2 input {
+    width:290px ;
+    height:35px ;
+}
+.input3 {
+    position: relative;
+    top: 145px;
+    left: 20px;
+    font-weight: bolder;
+}
+.input3 input {
+    width:290px ;
+    height: 35px;
+}
+.input4{
+    position: absolute;
+    bottom: 85px;
+    left: 20px;
+    font-weight: bolder;
+  
+}
+.input4 input{
+    width: 290px;
+    height: 100px;
+}
+.submit {
+    position: absolute;
+    bottom: 29px;
+    left: 20px;
+    font-weight: bolder;
+}   
+.submit input {
+    width: 102px;
+height: 42px;
+background-color: red;
+border-radius: 46px;
+
+}
+::placeholder{
+    color: blue;
+    font-size: 15px;
+}
+
+/* Contact Page finished woooooo********************************************************************************** */
+
+
+
+
+/* lesh go for Main Main main ******************************************************************************************* */
+main{
+    width: 95%;
+    /* background-color: aqua; */
+    /* display: flex; */
+    flex-wrap: wrap;
+    margin: auto;
+    /* background-color: rgba(0,0,0,0.5); */
+    
+
+}
+.image-text {
+    position: relative;
+    width: 100%;
+    display: flex;
+    margin: auto;
+    height: 596px;
+    flex-wrap: wrap;
+    background-color: wheat;
+    /* height: 200vh; */
+    /* background-color: red; */
+}
+.image-text img {
+    width: 49%;
+background-color: red;
+margin: 59px 526px 0 0px;
+height: 453px;
+border-radius: 10px;
+background-color: yellow;
+}
+.image-text p {
+    font-size: 26px;
+    position: absolute;
+    right: 200px;
+    color: midnightblue;
+  }
+
+.image-text1 {
+    display: flex;
+    background-color: wheat;
+}
+.image-text1 img {
+    width: 484px;
+    height: 66vh;
+}
+.image-text1 p {
+    margin: 0 0 0 231px;
+    font-size: 22px;
+    color: red;
+}
+
+
+
+/* image and text section end brooo*********************************************************** */
+/* here we go for small paragraph ************************************************** */
+.kindness {
+    background-color: darkolivegreen;
+    width: 100%;
+    height: 400px;
+    margin-top: 22px;
+    
+
+}
+
+.kindness h1 {
+width: 50%;
+margin: auto;
+color: red;
+}
+
+.kindness p {
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    font-size: 22px;
+    color: magenta;
+}
+.kindness input {
+    position: relative;
+font-size: 33px;
+left: 656px;
+top: 40px;
+background-color: mediumblue;
+color: white;
+border-radius: 12px;
+
+}
+/* .kindness end   small paragraph    ******************************************************************* */
+.learning {
+    width: 100%;
+    /* height: 100vh; */
+    background-color: darkslateblue;
+    margin-top: 22px;
+}
+.learning h1 {
+    width: 30%;
+    margin: auto;
+    font-size: 44px;
+}
+.learning p {
+    width: 70%;
+    margin: auto;
+    font-size: 22px;
+}
+
+.learning .image {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+
+.learning .image img {
+    width: 400px;
+    margin: 32px 0 0 0;
+}
+
+/* learning finish hurrayyy **************************************************** */
+/* main .background start ***************************** */
+  main .background {
+    background-image: url(../img/manisiddha\ new.1.jfif);
+    height: 145vh;
+    background-size: cover;
+    margin-top: 22px;
+}
+
+.background .transparent1 {
+    background-color: rgba(16, 16, 17, 0.7);
+    height: 145vh;
+    width: 63%;
+    margin-left: auto;
+}
+
+.background .transparent1 h1 {
     color: white;
-    margin: 22px;
+    width: 50%;
+    margin: auto;
+    
+}
+
+.background .transparent1 .image0 {
+margin: 22px;
+}
+
+.background .transparent1 .image0 img {
+    width: 150px;
+    display: flex;
+    position: relative;
+    bottom: 43px;
+    /* margin: 25px 0 0 85px ; */
+    /* flex-direction: column; */
+}
+.image0 p {
+    color: white;
+    width: 60%;
+    margin: 33px 0 0 244px;
+   
+}
+.background .transparent1 h2 {
+    color: red;
+    width: 30%;
+    margin: auto;
+    font-size: 44px;
+    
+}
+/* .background end brooo ??************************************************* */
+/* .mission obj visio0n ************************************** */
+.mission {
+    width: 100%;
+    height: 50vh;
+    background-color: lawngreen;
+    margin-top: 75px;
+    display: flex;
+    justify-content: space-around;
+}
+.mission .box1 {
+    width: 25%;
+    height: 50vh;
+    background-color: white;
+    border: 4px solid wheat;
+    position: relative;
+    bottom: 56px;
+}
+.mission .box2 {
+    width: 25%;
+    height: 50vh;
+    background-color: white;
+    border: 4px solid wheat;
+    position: relative;
+    bottom: 56px;
+}
+.mission .box3 {
+    width: 25%;
+    height: 50vh;
+    background-color: white;
+    border: 4px solid wheat;
+    position: relative;
+    bottom: 56px;
+}
+h1 {
+    margin-left: 74px;
+}
+.mission p {
+    font-size: 18px;
+    text-align: center;
+}
+
+/* vision mission obj end #@******************************************** */
+/* level taking next ************************************************************ */
+main .level {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+}
+.level .hero {
+    width: 100%;
+    height: 100vh;
+
+}
+.level h1 {
+    margin-left: 205px;
+    font-style: italic;
+    font-size: 61px;
+
+}
+.level h4 {
+margin-left: 20px;
+font-size: 42px;
+color: yellowgreen;
+}
+.level p {
+width: 600px;
+font-size: 33px;
+}
+
+.level img {
+    width: 800px;
+    position: relative;
+    left: 643px;
+    bottom: 479px;
+    height: 71vh;
+  }
+
+  /* taking to the next level end ********************************************* */
+  /* footer start ****************************************************** */
+footer .container1 {
+    width: 100%;
+    /* background-color: rgb(12, 12, 94); */
+    background-color: #07294d;
+    height: 70vh;
+    display: flex;
+
+}
+
+.container1  .box1 {
+    width: 40%;
+    /* background-color: aqua; */
+    /* height: 70vh; */
+}
+.box1 img {
+    width: 100px;
+    position: relative;
+    top: 40px;
+    left: 250px;
+}
+  .container1 .box1 p {
+    font-size: 22px;
+    font-weight: 600;
+    text-align: center;
+    color: white;
+    margin-top: 65px;
+}
+
+
+.link ul{
+    /* background-color: white; */
+    height: 45px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    top: 60px;
+    margin-left: 64px;
+}
+.link li{
+    height: 50px;
+    /* background-color: black; */
+    line-height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 100px;
+}
+.link ul li a {
+    color: white;
+   font-size: 28px;
+   
+}
+ .link ul li:hover{
+  background-color: red;
+  opacity: 0.7;  
+}
+
+
+
+/* box1 finish ***************************** */
+/* box2 start ************************************************** */
+  .container1 .box2 {
+    width: 20%;
+    /* background-color: red; */
+}
+ .box2 .mav {
+    width: 100%;
+
+}
+.nav ul {
+list-style: none;
+display: flex;
+flex-direction: column;
+
+}
+.nav ul li {
+    min-height: 50px;
+}
+.nav ul li a  {
+text-decoration: none;
+color: wheat;
+font-size: 24px;
+}
+
+
+/* box2 finish **************************************** */
+/* box3 start ************************************************* */
+ .container1 .box3 {
+    width: 20%;
+    /* background-color: pink; */
+ }
+ .faq {
+width: 100%;
+/* display: flex; */
+ }
+ .box3 .faq ul {
+    display: flex;
+    flex-direction: column;
+ }
+ .box3 .faq ul li {
+min-height: 62px;
+ }
+ .box3 .faq ul li a  {
+text-decoration: none;
+color: white;
+font-size: 24px;
+ }
+/* box3 finish************************************************ */
+/* box4 start ******************************************************* */
+.container1 .box4 {
+    width: 20%;
+
+}
+.box4 {
+width: 100%;
+    
+}
+.box4 .k-xa ul {
+    display: flex;
+    flex-direction: column;
+}
+.box4 .k-xa ul li  {
+    min-height: 60px;
+}
+.box4 .k-xa  ul li a {
+    color: white;
+    text-decoration: none;
+}
+.box4 .k-xa  ul li  i {
+    margin-right: 12px;
+}
+
+.container1 h1 {
+    font-weight: bolder;
+    color: whitesmoke;
+    position: relative;
+    right: 32px;
+}
+.container1 h1:hover {
+    border-bottom: 4px solid red;
+    transition: 1s;
+}
+/* .box4 end ********************************************************** */
+/* footer below start *************************************************** */
+.container12 {
+    width: 100%;
+    height: 80px ;
+    background-color: #021d3a;
+    position: relative;
+    bottom: 22px;
+}
+
+.container12 .gg {
+    
+}
+.container12 .gg p {
+    color: white;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 22px 0 0 0;
+}
+.container12 .tt {
+    
+}
+.container12 .tt p {
+    position: absolute;
+    right: 12px;
+    bottom: 12px;
+    color: white;
+    font-size: 17px;
+    
 }

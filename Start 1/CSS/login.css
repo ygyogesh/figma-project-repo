@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+.container{
+    background-color:whitesmoke;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.container .not-container {
+    background-color: white;
+    width: 23%;
+    height: 50vh;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    border-radius: 12px;
+  }
+
+    
+
+.not-container .label1 input {
+width: 300px;
+height: 40px;
+margin: 11px 0 0 23px;
+border-radius: 20px;
+font-size: 18px;
+}
+.label2 input{
+    background-color:blueviolet;
+    margin: 22px 0 0 27px;
+    width: 300px;
+    height: 40px;
+    border-radius: 9px;
+   
+  }
+.label2 input {
+    color: white;
+    font-size: 17px;
+    font-weight: bolder;
+}
+
+
+::placeholder{
+    font-size: 17px;
+    font-family: inherit;
+    font-weight: 400;
+
+}
+.forgot p {
+    margin:16px 0 0 116px;
+    color: blue;
+}
+.sign-up input {
+    margin: 30px 0 0 97px;
+width: 164px;
+height: 43px;
+border-radius: 12px;
+color: white;
+background-color:greenyellow;
+}

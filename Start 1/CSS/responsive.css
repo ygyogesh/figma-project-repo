@@ -1,0 +1,188 @@
+
+/* media quire start  */
+
+@media only screen and (max-width: 768px){
+    nav{
+        /* display: none; */
+        width: 100%;
+        /* margin-left: 50px; */
+        /* background-color: red; */
+    }
+    nav .right-section{
+        display: none;
+    }
+    nav .phone-section{
+
+        /* margin: 5%; */
+        margin-left: 20%;
+        text-align: center;
+        background-color: red;
+        width: 100%;
+        z-index: 1;
+        /* position: fixed; */
+    
+    }
+    main{
+        /* display: none; */
+        display: flex;
+        flex-wrap: wrap;
+    }
+    header{
+        /* display: none; */
+    }
+    .logo-section{
+        display: none;
+        z-index: 1;
+        width: 26%;
+    }
+    .menu-section{
+        margin-left: 55px;
+        width: auto;
+       /* background-color: red; */
+    }
+    .menu-section :nth-child(3){
+        display: none;
+    }
+    .menu-section :nth-child(4){
+        /* display: none; */
+    }
+    .menu-section ul li a{
+        margin: 10px;
+    }
+    div.login{
+        /* display: none; */
+    }
+    .fa-fa-section{
+        display: none;
+    }
+    container12{
+        /* display: none; */
+    }
+    marquee{
+        /* display: none; */
+    }
+    footer{
+        display: none;
+    }
+    iframe{
+        display: none;
+    }
+    
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    header .logo-section img{
+        width: 80px;
+        height: 92px;
+        margin: 1px 0 13px 63px;}
+
+        header .logo-section p {
+            font-size:7px ;
+            margin: 1px 0 0 5px;
+            color: wheat;
+            font-family: monospace;
+            font-stretch: extra-condensed;
+            font-style: italic;
+        }
+        
+
+        .menu-sectio4n{
+            width: 12%;
+            position: relative;
+            background-color: mediumblue;
+        }
+        .menu-section ul{
+            display: flex;
+            flex-wrap: wrap;
+            list-style: none;
+        }
+        .menu-section ul li{
+        
+        }
+        .menu-section ul li a{
+        text-decoration: none;
+        margin: 2px;
+        /* position: relative; */
+        /* top: 12px; */
+        font-size: 12px;
+        display: flex;
+        flex-wrap: wrap;
+        font-weight: lighter;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        }
+
+
+        /* header finish for now  */
+
+        .slider {
+            /* position: relative; */
+            height: 25vh;
+            width: 85%;
+            overflow: hidden;
+            margin: auto;
+        }
+        .slide1{
+            position: absolute;
+            inset: 0;
+            opacity: 0;
+            animation: sliding 12s infinite;
+            animation-delay: 5s;
+        }
+        .slide1 img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        
+        }
+        @keyframes sliding {
+            30% {opacity: 1; }
+        }
+
+        /* animation section finish  */
+        .image-text {
+            position: relative;
+            width: 100%;
+            /* display: flex; */
+            margin: auto;
+            height: 96px;
+            /* flex-wrap: wrap; */
+            background-color: wheat;
+            
+        }
+        .image-text img {
+            width: 40%;
+        background-color: red;
+        margin-left: 180px;
+        height: 200px;
+        border-radius: 10px;
+        background-color: yellow;
+        }
+        .image-text p {
+            font-size: 12px;
+            /* position: absolute; */
+            /* right: 200px; */
+            color: midnightblue;
+          }
+
+          /* dad image finish  */
+
+          /* santosh sir start  */
+
+       .image-text1 {
+    /* display: flex; */
+    background-color: wheat;
+}
+.image-text1 img {
+    width: 84px;
+    height: 16vh;
+    
+}
+.image-text1 p {
+    margin: 0 0 0 231px;
+    font-size: 12px;
+    color: red;
+}
+}

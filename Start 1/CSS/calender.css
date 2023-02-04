@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+}
+.container {
+    color:green;
+   
+}
+
+table {
+    border: 12px solid aqua;
+    width: 50%;
+    height: 80vh;
+   
+}
+
+
+.baisakh {
+    color:blue;
+    border: 3px solid white;
+
+}
+tr th {
+    border: 5px solid aliceblue;
+    background-color: beige;
+    background: linear-gradient(red, blue, green);
+}
+
+tr td {
+border: 2px solid black;
+background-color: rgba(27, 149, 82, 0.15);
+border-spacing: 0;
+}
