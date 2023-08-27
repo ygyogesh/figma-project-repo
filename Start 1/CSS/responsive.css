@@ -1,34 +1,25 @@
-
-/* media quire start  */
+/* 
 
 @media only screen and (max-width: 768px){
     nav{
-        /* display: none; */
         width: 100%;
-        /* margin-left: 50px; */
-        /* background-color: red; */
     }
     nav .right-section{
         display: none;
     }
     nav .phone-section{
 
-        /* margin: 5%; */
         margin-left: 20%;
         text-align: center;
         background-color: red;
         width: 100%;
         z-index: 1;
-        /* position: fixed; */
-    
     }
     main{
-        /* display: none; */
         display: flex;
         flex-wrap: wrap;
     }
     header{
-        /* display: none; */
     }
     .logo-section{
         display: none;
@@ -38,35 +29,16 @@
     .menu-section{
         margin-left: 55px;
         width: auto;
-       /* background-color: red; */
     }
     .menu-section :nth-child(3){
         display: none;
     }
     .menu-section :nth-child(4){
-        /* display: none; */
     }
     .menu-section ul li a{
         margin: 10px;
     }
-    div.login{
-        /* display: none; */
-    }
-    .fa-fa-section{
-        display: none;
-    }
-    container12{
-        /* display: none; */
-    }
-    marquee{
-        /* display: none; */
-    }
-    footer{
-        display: none;
-    }
-    iframe{
-        display: none;
-    }
+    
     
 }
 
@@ -98,14 +70,11 @@
             flex-wrap: wrap;
             list-style: none;
         }
-        .menu-section ul li{
         
         }
         .menu-section ul li a{
         text-decoration: none;
         margin: 2px;
-        /* position: relative; */
-        /* top: 12px; */
         font-size: 12px;
         display: flex;
         flex-wrap: wrap;
@@ -115,10 +84,9 @@
         }
 
 
-        /* header finish for now  */
+      
 
         .slider {
-            /* position: relative; */
             height: 25vh;
             width: 85%;
             overflow: hidden;
@@ -142,13 +110,11 @@
         }
 
         /* animation section finish  */
-        .image-text {
+        /* .image-text {
             position: relative;
             width: 100%;
-            /* display: flex; */
             margin: auto;
             height: 96px;
-            /* flex-wrap: wrap; */
             background-color: wheat;
             
         }
@@ -162,17 +128,12 @@
         }
         .image-text p {
             font-size: 12px;
-            /* position: absolute; */
-            /* right: 200px; */
             color: midnightblue;
           }
 
-          /* dad image finish  */
 
-          /* santosh sir start  */
 
        .image-text1 {
-    /* display: flex; */
     background-color: wheat;
 }
 .image-text1 img {
@@ -184,5 +145,4 @@
     margin: 0 0 0 231px;
     font-size: 12px;
     color: red;
-}
-}
+} */

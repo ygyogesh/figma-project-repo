@@ -1,0 +1,235 @@
+/* to make dark theme  */
+:root {
+    --primary-color: #edf2fc;
+    --secondary-color: #212121;
+
+}
+
+.dark-theme {
+    --primary-color: #000106;
+    --secondary-color: #fff;
+}
+
+/* dark theme end  */
+
+/* nav start  */
+#nav1 {
+    background: var(--primary-color);
+}
+
+
+/* toggle bar start  */
+
+#don {
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+}
+
+
+
+
+/* toggle bar end  */
+
+
+#yg {
+    margin: 0 auto;
+
+
+}
+
+#nav2 {
+    margin-left: 50px;
+    margin-top: 25px;
+    color: var(--secondary-color);
+    font-size: 1.18rem;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+
+
+/* button of letss connect  */
+#mouse {
+    /* border: 1px solid red; */
+    border: 2px solid var(--secondary-color);
+    margin-left: 90px;
+    font-size: 1.18rem;
+    font-weight: 600;
+    padding: 9px;
+    color: var(--secondary-color);
+
+}
+
+#mouse:hover {
+    color: blueviolet
+        /* border: 3px solid black; */
+}
+
+
+
+
+#photo1 {
+    margin-top: 25px;
+}
+
+#nav3 {
+    /* position: fixed; */
+    height: 600px;
+    width: 100%;
+    background-color: var(--secondary-color);
+
+}
+
+
+/* moon photo  */
+#photo2 {
+    width: 2.5em;
+    margin-left: 60px;
+    margin-top: 15px;
+}
+
+
+.col-md-7 {
+    background-color: var(--secondary-color);
+    height: 580px;
+}
+
+
+
+/* contact page main start  */
+
+
+#contact1 {
+    width: 100%;
+    height: 654px;
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
+
+}
+
+#contact2 {
+    width: 100%;
+    box-shadow: 5px 5px 5px rgba(80, 77, 77, 0.6);
+    height: 634px;
+}
+
+
+#form {
+    /* line-height: 30px; */
+    background-color: var(--primary-color);
+    padding: 20px 20px 20px 20px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(80, 77, 77, 0.6);
+    border: 2px solid white;
+
+
+}
+
+#knowme {
+    width: 90%;
+    color: var(--secondary-color);
+    font-size: 36px;
+
+}
+
+#detail {
+    width: 80%;
+    color: var(--secondary-color);
+    font-weight: 300;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#formrow {
+    margin-top: 20px;
+
+}
+
+input {
+    width: 265px;
+    padding: 5px;
+    border-radius: 5px;
+    color: var(--secondary-color);
+    background-color: var(--primary-color);
+    border: 2px solid var(--secondary-color);
+
+}
+
+label {
+    font-size: 17px;
+    font-weight: bold;
+    color: var(--secondary-color);
+}
+#rememberme{
+    font-size: 10px;
+}
+
+::placeholder {
+    font-weight: 400;
+    font-family: cursive;
+    color: var(--secondary-color);
+}
+
+#button {
+    width: 100px;
+    padding: 10px;
+    border-radius: 15px;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border: 2px solid var(--secondary-color);
+}
+
+#button:hover {
+    width: 100px;
+    padding: 10px;
+    color: var(--primary-color);
+    background-color: blueviolet;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+textarea {
+    border-radius: 5px;
+    border: 2px solid var(--secondary-color);
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+/* another photo start   */
+
+#contact2 {
+    border-radius: 5px;
+}
+
+#newRecord {
+    line-height: 25.67px;
+}
+
+/* span    */
+span {
+    color: red;
+    font-family: cursive;
+    font-weight: 400;
+}
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 400px) {
+    textarea {
+        width: 290px;
+    }
+
+    #mouse {
+        position: relative;
+        /* right: 80px; */
+        width: 200px;
+        /* margin-top: 20px; */
+    }
+
+}

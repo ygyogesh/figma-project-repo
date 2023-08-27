@@ -1,0 +1,169 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+
+.box{
+    background-color: #F6F1F1;
+    width: 80%;
+    height: 100px;
+    margin: 80px 0 0 200px;
+   
+    box-shadow: 2px 2px 2px 2px;
+    position: relative;
+    bottom: 30px;
+}
+.profile img {
+    width: 114px;
+    position: relative;
+    bottom: 46px;
+    left: 19px;
+}
+.yogesh img {
+    width: auto;
+    position: relative;
+    left: 800px;
+    bottom: 100px;
+}
+
+nav ul  {
+   position: absolute;
+   top: 0;
+   right: 300px;
+   display: flex;
+
+}
+ nav ul li {
+    list-style-type: none;
+    min-width: 120px;
+
+}
+
+ nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-family: 'Noto Serif', serif;
+    font-weight: bolder;
+    /* text-decoration: underline; */
+}
+
+
+
+
+.nav ul li a:hover{
+    background-color: black;
+    color: white;
+    padding: 12px;
+    border-radius: 6px;
+    transition: 0.5s;
+    opacity: 0.5s;
+    text-decoration: underline;
+}
+
+
+.container3 {
+    width: 65%;
+    margin: auto;
+    height: 920px;
+    background-color: white;
+    box-shadow: 10px 10px 10px 10px;
+    position: relative;
+    /* top: 300px; */
+}
+
+
+
+.container3 .hero1 img{
+    width: 40%;
+    height: 920px;
+}
+.container3 .form img {
+    width: 100px;
+    position: absolute;
+    top: 70px;
+    right: 250px;
+}
+
+.container3 .form .tauko {
+    position: absolute;
+    top: 140px;
+    right: 160px;
+}
+.container3 .form .tauko h1{
+    color: rgb(38, 33, 96);
+    font-size: 44px;
+    
+
+}
+.container3 .form .tauko p{
+ color: black;
+ font-weight: bolder; 
+  position: relative; 
+  left: 40px;
+  bottom: 25px;
+}
+
+.mail {
+    position: relative;
+    left: 500px;
+    bottom: 650px;
+}
+.mail input {
+    width: 320px;
+    height: 45px;
+}
+
+.mail p {
+    font-weight: 400;
+    color: rgb(49, 8, 8);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.mail button {
+position: relative;
+left: 120px;
+text-decoration: none;
+bottom: 30px;
+background-color: green;
+padding: 7px;
+
+}
+.mail button a{
+    color: white;
+    text-decoration: none;
+    width: 100px;
+    font-size: 20px;
+}
+.mail button:hover{
+    background-color: blue;
+    transition: 0.7s;
+    
+}
+.container4  p {
+    text-align: center;
+    font-size: 22px;
+    margin-top: 60px;
+    font-weight: bold;
+}
+
+.mail input{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#hey{
+    position: relative;
+    right: 280px;
+    bottom: 60px;
+    font-size: 15px;
+}
+#yo{
+    position: relative;
+    bottom: 140px;
+    left: 280px;
+    font-size: 15px;
+
+}

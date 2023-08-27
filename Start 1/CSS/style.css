@@ -12,9 +12,11 @@ ul{
 
 header {
     width: 100%;
-    position: relative;
-    background-color: darkblue;
+    /* position: relative; */
+    background-color:black;
     display: flex;
+    position: fixed;
+    z-index: 10;
 }
 
 /* logo section start**************************************************************************** */
@@ -27,7 +29,7 @@ header .logo-section img{
     margin: 1px 0 13px 63px;}
     header .logo-section img:hover{
         opacity: 0.6;
-        color: gold;
+        color: rgb(171, 169, 162);
     }
 
 
@@ -52,15 +54,13 @@ header .logo-section p {
 .menu-section{
     width: 52%;
     position: relative;
-    background-color: mediumblue;
+    background-color: rgb(25, 25, 30);
 }
 .menu-section ul{
     display: flex;
     list-style: none;
 }
-.menu-section ul li{
 
-}
 .menu-section ul li a{
 text-decoration: none;
 margin: 25px;
@@ -69,12 +69,44 @@ top: 12px;
 font-size: 17px;
 font-weight: lighter;
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-color: white;
+color: wheat;
 }
 .menu-section ul li a:hover{
     opacity: 0.5;
     color: aqua;
 }
+
+.menu-section ul li ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    min-height: 150px;
+    width: 150px;
+    display: none;
+
+}
+ul li ul li {
+min-width: 20px;
+min-height: 85px;
+border: 2px solid black;
+}
+
+.menu-section ul li:hover ul {
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 .menu-section p {
     position: absolute;
     top: 12px;
@@ -105,7 +137,8 @@ nav .right-section ul li ul a {
 }
 
 .fa-fa-section a {
-    color: wheat;
+    /* color: rgb(169, 166, 160); */
+    color:wheat;
 font-size: 22px;
 position: relative;
 left: 45px;
@@ -135,7 +168,7 @@ font-size: 23px;
 /* nav section started ***************************************************** */
 nav {
     width: 100%;
-    background-color:wheat;
+    background-color:rgb(234, 232, 228);
     height: 41px;
     position: relative;
     bottom: 16px;
@@ -182,6 +215,7 @@ nav .right-section ul a {
     font-size: 20px;
     color: black;
     font-weight: 500;
+    padding: 6px;
     position: relative;bottom: 10px;
 }
 nav .right-section ul a:hover{
@@ -189,6 +223,20 @@ nav .right-section ul a:hover{
     border-radius: 3px;
     color: blue;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* nav section end ********************************************************* */
 /* photo section start ***************************************************** */
@@ -199,12 +247,12 @@ nav .right-section ul a:hover{
     overflow: hidden;
     margin: auto;
 }
-.slide1{
+/* .slide1{
     position: absolute;
     inset: 0;
     opacity: 0;
-    animation: sliding 12s infinite;
-    animation-delay: 5s;
+    animation: sliding 5s infinite;
+    animation-delay: 0s;
 }
 .slide1 img {
     width: 100%;
@@ -214,21 +262,17 @@ nav .right-section ul a:hover{
 }
 @keyframes sliding {
     30% {opacity: 1; }
-}
+} */
 
 marquee {
-    background-color: red;
+    background-color: rgb(32, 26, 26);
 }
 
 ul {
     display: flex;
-    color:black;
+    color:white;
     font-weight: 600;
     
-}
-
-ul li  {
-    /* margin: 22px; */
 }
 
 
@@ -250,19 +294,23 @@ ul li  {
     position: relative;
     margin: auto;
     top: 54px;
+    /* border-radius: 10px;
+    border-color: red; */
 }
 .container3  .inside-container {
     background-color: white;
-    width: 68%;
+    width: 39%;
     height: 540px;
     margin: auto;
     position: relative;
-    top: 100px;
+    top: 20px;
+    border-radius: 22px;
+    border-color: blue;
 }
 .text {
     position: absolute;
     top: 12px;
-    left: 205px;`
+    left: 205px;
 }
 .text h1 {
     font-family: sans-serif;
@@ -320,7 +368,7 @@ ul li  {
 .submit input {
     width: 102px;
 height: 42px;
-background-color: red;
+background-color: green;
 border-radius: 46px;
 
 }
@@ -352,48 +400,49 @@ main{
     margin: auto;
     height: 596px;
     flex-wrap: wrap;
-    background-color: wheat;
-    /* height: 200vh; */
-    /* background-color: red; */
+    
 }
 .image-text img {
-    width: 49%;
-background-color: red;
-margin: 59px 526px 0 0px;
-height: 453px;
-border-radius: 10px;
-background-color: yellow;
+    width: 30%;
+    background-color: rgb(122, 116, 116);
+    /* margin: 28px 226px 0 0px; */
+    height: 500px;
+    border-radius: 10px;
+    background-color: yellow;
+    margin: 15px 0 0 200px;
 }
 .image-text p {
-    font-size: 26px;
+    font-size: 21px;
     position: absolute;
     right: 200px;
-    color: midnightblue;
+    color: black;
   }
 
 .image-text1 {
     display: flex;
-    background-color: wheat;
 }
 .image-text1 img {
     width: 484px;
-    height: 66vh;
+    height: 64vh;
 }
 .image-text1 p {
     margin: 0 0 0 231px;
-    font-size: 22px;
-    color: red;
+    font-size: 20px;
+    color:black;
+    font-family: 'Ubuntu', sans-serif;
+    
 }
-
 
 
 /* image and text section end brooo*********************************************************** */
 /* here we go for small paragraph ************************************************** */
 .kindness {
-    background-color: darkolivegreen;
+    background-color: rgb(17, 15, 15);
     width: 100%;
     height: 400px;
     margin-top: 22px;
+    /* border-radius: 6px; */
+    box-shadow: 10px 10px 8px 10px #888888;
     
 
 }
@@ -401,7 +450,7 @@ background-color: yellow;
 .kindness h1 {
 width: 50%;
 margin: auto;
-color: red;
+color: white;
 }
 
 .kindness p {
@@ -409,14 +458,29 @@ color: red;
     width: 60%;
     margin: auto;
     font-size: 22px;
-    color: magenta;
+    color: white;
 }
+
+#jquery .kindness p:after{
+    content: "";
+  background: white;
+  position: absolute;
+  z-index: -1;
+  left: -20%;
+  right: -20%;
+  top: 0;
+  bottom: 0;
+  transform: skewX(-45deg) scale(0, 1);
+  transition: all 0.5s;
+}
+
+
 .kindness input {
     position: relative;
 font-size: 33px;
 left: 656px;
 top: 40px;
-background-color: mediumblue;
+background-color: rgb(20, 20, 26);
 color: white;
 border-radius: 12px;
 
@@ -425,16 +489,19 @@ border-radius: 12px;
 .learning {
     width: 100%;
     /* height: 100vh; */
-    background-color: darkslateblue;
+    background-color: black;
     margin-top: 22px;
+    box-shadow: 10px 10px 8px 10px #888888;
 }
 .learning h1 {
     width: 30%;
     margin: auto;
     font-size: 44px;
+    color: white;
 }
 .learning p {
     width: 70%;
+    color: white;
     margin: auto;
     font-size: 22px;
 }
@@ -493,7 +560,7 @@ margin: 22px;
    
 }
 .background .transparent1 h2 {
-    color: red;
+    color:white;
     width: 30%;
     margin: auto;
     font-size: 44px;
@@ -504,7 +571,7 @@ margin: 22px;
 .mission {
     width: 100%;
     height: 50vh;
-    background-color: lawngreen;
+    background-color: black;
     margin-top: 75px;
     display: flex;
     justify-content: space-around;
@@ -513,15 +580,16 @@ margin: 22px;
     width: 25%;
     height: 50vh;
     background-color: white;
-    border: 4px solid wheat;
+    border: 4px solid rgb(12, 12, 11);
     position: relative;
     bottom: 56px;
+    border-radius: 10px;
 }
 .mission .box2 {
     width: 25%;
     height: 50vh;
     background-color: white;
-    border: 4px solid wheat;
+    border: 4px solid rgb(19, 19, 19);
     position: relative;
     bottom: 56px;
 }
@@ -529,12 +597,13 @@ margin: 22px;
     width: 25%;
     height: 50vh;
     background-color: white;
-    border: 4px solid wheat;
+    border: 4px solid rgb(18, 17, 16);
     position: relative;
     bottom: 56px;
+    border-radius: 10px;
 }
-h1 {
-    margin-left: 74px;
+ .mission h1 {
+    margin-left: 114px;
 }
 .mission p {
     font-size: 18px;
@@ -551,38 +620,43 @@ main .level {
 .level .hero {
     width: 100%;
     height: 100vh;
+    
 
 }
 .level h1 {
     margin-left: 205px;
     font-style: italic;
-    font-size: 61px;
+    font-size: 44px;
 
 }
 .level h4 {
 margin-left: 20px;
 font-size: 42px;
-color: yellowgreen;
+color: black;
 }
 .level p {
 width: 600px;
-font-size: 33px;
+font-size: 28px;
 }
 
 .level img {
     width: 800px;
     position: relative;
     left: 643px;
-    bottom: 479px;
+    bottom: 400px;
     height: 71vh;
   }
+
+ #god {
+    width: 50%;
+ }
 
   /* taking to the next level end ********************************************* */
   /* footer start ****************************************************** */
 footer .container1 {
     width: 100%;
     /* background-color: rgb(12, 12, 94); */
-    background-color: #07294d;
+    background-color: #1f262d;
     height: 70vh;
     display: flex;
 
@@ -618,6 +692,8 @@ footer .container1 {
     top: 60px;
     margin-left: 64px;
 }
+
+
 .link li{
     height: 50px;
     /* background-color: black; */
@@ -659,8 +735,8 @@ flex-direction: column;
 }
 .nav ul li a  {
 text-decoration: none;
-color: wheat;
-font-size: 24px;
+color: white !important;
+font-size: 22px;
 }
 
 
@@ -684,7 +760,7 @@ min-height: 62px;
  .box3 .faq ul li a  {
 text-decoration: none;
 color: white;
-font-size: 24px;
+font-size: 22px;
  }
 /* box3 finish************************************************ */
 /* box4 start ******************************************************* */
@@ -726,23 +802,19 @@ width: 100%;
 .container12 {
     width: 100%;
     height: 80px ;
-    background-color: #021d3a;
+    background-color: #1c2228;
     position: relative;
     bottom: 22px;
 }
 
-.container12 .gg {
-    
-}
+
 .container12 .gg p {
     color: white;
     font-size: 17px;
     font-weight: 300;
     padding: 22px 0 0 0;
 }
-.container12 .tt {
-    
-}
+
 .container12 .tt p {
     position: absolute;
     right: 12px;
@@ -751,3 +823,18 @@ width: 100%;
     font-size: 17px;
     
 }
+
+
+@media only screen and (max-width: 768px){
+    header {
+        background-color: red;
+    }
+    
+}
+@media only screen and (max-width: 1024px){
+    
+    header {
+        background-color: blue;
+    }
+}
+

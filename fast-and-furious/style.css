@@ -1,0 +1,738 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* =========================the menu portion of the home page======================================= */
+header {
+    
+}
+
+/* ========leftportion======= */
+.leftportion {
+    background: rgb(0, 0, 0);
+    width: 25%;
+    height: 10%;
+    position: absolute;
+    display: flex;
+}
+
+.BBC-logo {
+    width: 45%;
+    position: absolute;
+    margin: 1.5% 20%;
+    
+
+}
+
+.sign-in {
+    position: absolute;
+    left: 63%;
+    bottom: 9%;
+    
+    border: none;
+    background-color:black;
+}
+
+.sign-in a {
+    color: white;
+    text-decoration: none;
+    font-size: 42px;
+}
+
+#sign-in-icon {
+    position: absolute;
+    left: 58%;
+    top: 30%;
+    color: rgb(255, 255, 255);
+}
+
+/* ========leftportion end====== */
+
+/* ========centre portion======== */
+.centreportion {
+    background: rgb(0, 0, 0);
+    width: 55%;
+    height: 10%;
+    position: absolute;
+    display: flex;
+    left: 25%;
+    list-style: none;
+}
+
+.centreportion li {
+    margin: auto;
+    text-decoration: none;
+}
+
+.centreportion li a {
+    text-decoration: none;
+    color: white;
+    font-size: 100%;
+    font-weight: bold;
+}
+
+.centreportion li a:hover {
+    /* color: orange; */
+    border-bottom: 1px solid orange;
+}
+
+
+.centreportion .dots {
+    font-size: xx-large;
+    margin: 0.5%;
+    margin-right: 2%;
+}
+
+/* =========centre portion end===== */
+
+
+/* =========right portion========== */
+
+.rightportion {
+    background: rgb(0, 0, 0);
+    width: 20%;
+    height: 10%;
+    position: absolute;
+    display: flex;
+    right: 0%;
+}
+
+.rightportion-button {
+    border: none;
+    width: 60%;
+    background-color: rgb(47, 46, 46);
+    color: rgb(255, 255, 255);
+    font-size: large;
+    margin: 5%;
+    font-weight: 300;
+}
+
+#searchicone {
+    color: white;
+    background-color: rgb(47, 46, 46);
+    margin: 4%;
+    font-size: large;
+}
+
+
+
+/* ================right portion end================== */
+
+
+/* ================body portion start================ */
+.main {
+    position: absolute;
+    height: 90%;
+    width: 100%;
+}
+
+/* =================left side big image open===================== */
+.left-side-big-picture {
+    position: absolute;
+    background: rgba(255, 255, 255, 0.213);
+    width: 46%;
+    height: 55%;
+    top: 20%;
+    margin-left: 3%;
+
+}
+
+.left-side-big-picture a img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    list-style: none;
+
+}
+
+.left-side-big-picture a img:hover {
+    opacity: 0.5;
+
+}
+
+.text0 {
+    position: relative;
+    font-size: 60px;
+    color: red;
+    top: 70%;
+}
+
+/* =================left side big image close=====================*/
+
+.right-side-four-picture {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 46%;
+    height: 55%;
+    top: 20%;
+    right: 3%;
+    list-style: none;
+}
+
+.right-side-four-picture li {
+    position: absolute;
+
+}
+
+.right-side-four-picture li a {
+    text-decoration: none;
+    color: white;
+
+}
+
+/* ==================================== 1sub image open=============================== */
+.top-left-sub-pic {
+    background: rgb(232, 229, 232);
+    width: 49%;
+    left: 0%;
+    top: 0%;
+    height: 49%;
+    font-weight: bold;
+}
+
+.top-left-sub-pic a img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.top-left-sub-pic a img:hover {
+    opacity: 0.5;
+}
+
+.text1 {
+    position: relative;
+    color: rgb(254, 253, 253);
+    font-size: 30px;
+    top: 60%;
+    text-align: left;
+}
+
+/* ======================== 1 sub image close=============================== */
+
+
+
+/* ========================= 2 sub image open============================== */
+.top-right-sub-pic {
+    background-color: rgb(232, 229, 232);
+    right: 0%;
+    width: 49%;
+    top: 0%;
+    height: 49%;
+}
+
+.top-right-sub-pic a img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.top-right-sub-pic a img:hover {
+    opacity: 0.5;
+}
+
+.text2 {
+    position: relative;
+    color: white;
+    font-size: 30px;
+    top: 70%;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* =========================== 2 sub image close========================================== */
+
+
+
+/* ==============================  3 sub image open=  ============================================ */
+.bottom-left-sub-pic {
+    background-color: rgb(232, 229, 232);
+    bottom: 0%;
+    left: 0%;
+    width: 49%;
+    height: 49%;
+}
+
+.bottom-left-sub-pic a img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.bottom-left-sub-pic a img:hover {
+    opacity: 0.5;
+}
+
+.text3 {
+    position: relative;
+    color: white;
+    font-size: 30px;
+    top: 70%;
+    text-align: justify;
+    font-weight: bold;
+}
+
+/* =============================   3 sub image close   ============================================= */
+
+
+
+/* =============================    4 sub image open   ========================================= */
+.bottom-right-sub-pic {
+    background-color: rgb(232, 229, 232);
+    right: 0%;
+    bottom: 0%;
+    width: 49%;
+    height: 49%;
+}
+
+.bottom-right-sub-pic a img {
+
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.bottom-right-sub-pic a img:hover {
+
+    opacity: 0.5;
+}
+
+.text4 {
+    position: relative;
+    color: white;
+    font-size: 30px;
+    top: 60%;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* ========================4 sub image close======================================= */
+
+/* =======================news portion of the main================================= */
+
+/*================news portion start============ */
+.textnews {
+    color: rgb(66, 64, 64);
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.news {
+    position: absolute;
+    /* background-color: blue; */
+    width: 94%;
+    margin-left: 42px;
+    height: 60%;
+    top: 80%;
+}
+
+.news1 {
+    position: absolute;
+    /* background-color: bisque; */
+    width: 32%;
+    height: 93%;
+    left: 0%;
+    top: 7%;
+}
+
+.news1:hover {
+    opacity: 0.5;
+}
+
+.news1img {
+    position: absolute;
+    top: 4%;
+    width: 100%;
+    height: 50%;
+    /* background: red; */
+}
+
+.news1img img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.news1text {
+    position: absolute;
+    height: 46%;
+    width: 100%;
+    /* background: green; */
+    top: 54%;
+}
+
+.news2 {
+    position: absolute;
+    /* background-color: bisque; */
+    width: 32%;
+    height: 93%;
+    left: 34%;
+    top: 7%;
+}
+
+.news2:hover {
+    opacity: 0.5;
+}
+
+.news2img {
+    position: absolute;
+    top: 4%;
+    width: 100%;
+    height: 50%;
+    /* background: red; */
+}
+
+.news2img img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.news2text {
+    position: absolute;
+    height: 46%;
+    width: 100%;
+    /* background: green; */
+    top: 54%;
+}
+
+.news3 {
+    position: absolute;
+    /* background-color: bisque; */
+    width: 32%;
+    height: 93%;
+    right: 0%;
+    top: 7%;
+}
+
+.news3:hover {
+    opacity: 0.5;
+}
+
+.news3img {
+    position: absolute;
+    top: 4%;
+    width: 100%;
+    height: 50%;
+    /* background: red; */
+}
+
+.news3img img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.news3text {
+    position: absolute;
+    height: 46%;
+    width: 100%;
+    /* background: green; */
+    top: 54%;
+}
+
+/* ================news portion end================= */
+
+
+/* ================sport  portion start here============*/
+.textsport {
+    color: rgb(66, 64, 64);
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.sport {
+    position: absolute;
+    /* background-color: rgb(255, 128, 0); */
+    width: 94%;
+    margin-left: 42px;
+    height: 60%;
+    top: 141%;
+}
+
+.sport1 {
+    position: absolute;
+    /* background-color: bisque; */
+    width: 32%;
+    height: 93%;
+    left: 0%;
+    top: 7%;
+}
+
+.sport1:hover {
+    opacity: 0.5;
+}
+
+.sport1img {
+    position: absolute;
+    top: 4%;
+    width: 100%;
+    height: 50%;
+    /* background: red; */
+}
+
+.sport1img img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.sport1txt {
+    position: absolute;
+    height: 46%;
+    width: 100%;
+    /* background: green; */
+    top: 54%;
+}
+
+.sport2 {
+    position: absolute;
+    /* background-color: bisque; */
+    width: 32%;
+    height: 93%;
+    left: 34%;
+    top: 7%;
+}
+
+.sport2:hover {
+    opacity: 0.5;
+}
+
+.sport2img {
+    position: absolute;
+    top: 4%;
+    width: 100%;
+    height: 50%;
+    /* background: red; */
+}
+
+.sport2img img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.sport2txt {
+    position: absolute;
+    height: 46%;
+    width: 100%;
+    /* background: green; */
+    top: 54%;
+}
+
+.sport3 {
+    position: absolute;
+    /* background-color: bisque; */
+    width: 32%;
+    height: 93%;
+    right: 0%;
+    top: 7%;
+}
+
+.sport3:hover {
+    opacity: 0.5;
+}
+
+.sport3img {
+    position: absolute;
+    top: 4%;
+    width: 100%;
+    height: 50%;
+    /* background: red; */
+}
+
+.sport3img img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.sport3txt {
+    position: absolute;
+    height: 46%;
+    width: 100%;
+    /* background: green; */
+    top: 54%;
+}
+
+/* ============sport portion ends here===================== */
+
+
+/* =============== Feature-and-event start here==============*/
+.textFeature-and-event {
+    color: rgb(66, 64, 64);
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.Feature-and-event {
+    position: absolute;
+    /* background-color: rgb(255, 234, 0); */
+    width: 94%;
+    margin-left: 42px;
+    height: 60%;
+    top: 202%;
+}
+
+.Feature-and-event1 {
+    position: absolute;
+    /* background-color: bisque; */
+    width: 32%;
+    height: 93%;
+    left: 0%;
+    top: 7%;
+}
+
+.Feature-and-event1:hover {
+    opacity: 0.5;
+}
+
+.Feature-and-event1img {
+    position: absolute;
+    top: 4%;
+    width: 100%;
+    height: 50%;
+    /* background: red; */
+}
+
+.Feature-and-event1 img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.Feature-and-event1txt {
+    position: absolute;
+    height: 46%;
+    width: 100%;
+    /* background: green; */
+    top: 54%;
+}
+
+.Feature-and-event3img img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.Feature-and-event2 {
+    position: absolute;
+    /* background-color: bisque; */
+    width: 32%;
+    height: 93%;
+    left: 34%;
+    top: 7%;
+}
+
+.Feature-and-event2:hover {
+    opacity: 0.5;
+}
+
+.Feature-and-event2img {
+    position: absolute;
+    top: 4%;
+    width: 100%;
+    height: 50%;
+    /* background: red; */
+}
+
+.Feature-and-event2 img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.Feature-and-event2txt {
+    position: absolute;
+    height: 46%;
+    width: 100%;
+    /* background: green; */
+    top: 54%;
+}
+
+.Feature-and-event3 {
+    position: absolute;
+    /* background-color: bisque; */
+    width: 32%;
+    height: 93%;
+    right: 0%;
+    top: 7%;
+}
+
+.Feature-and-event3:hover {
+    opacity: 0.5;
+}
+
+.Feature-and-event3img {
+    position: absolute;
+    top: 4%;
+    width: 100%;
+    height: 50%;
+    /* background: red; */
+}
+
+.Feature-and-event3txt {
+    position: absolute;
+    height: 46%;
+    width: 100%;
+    /* background: green; */
+    top: 54%;
+}
+
+/* ============Feature-and-event end here================= */
+
+
+footer {
+    position: relative;
+    background: rgb(122, 108, 108);
+    height: 200px;
+    width: 94%;
+    margin-left: 42px;
+    top: 2100px;
+}
+
+.explorebbc {
+    font-size: x-large;
+    color: white
+}
+
+footer {
+    width: 100%;
+    height: 250px;
+
+}
+
+footer ul {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+footer ul li {
+    list-style: none;
+    margin: 20px 0;
+
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    margin: 0 52px;
+    
+
+}
+hr{
+    width: 100%;
+    color: white;
+    margin: 10px auto;
+
+}
+.p{
+    font-size: larger;
+}
+.a{
+
+    color: white;
+}

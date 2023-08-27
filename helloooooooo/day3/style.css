@@ -1,0 +1,135 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: bisque;
+
+}
+header{
+    width: 100%;
+    height: 65px;
+    background-color: black;
+    position: relative;
+}
+
+header .left-section {
+    display: flex;
+}
+header .left-section .image{
+   position: relative; 
+}
+
+header .left-section .image img{
+   
+    margin: 1px 22px;
+    width: 273px;
+    height: 63px;
+    
+}
+header .left-section .logo{
+  position: relative;
+
+}
+
+header .left-section .logo a{
+    color: white;
+    position: absolute;
+    top: 5px;
+    font-size: 44px;
+    width: 172px
+}
+header .menu-section {
+    position: absolute;
+    top: 3px;
+    left: 448px;
+    
+}
+header .menu-section ul{
+    list-style: none;
+    display: flex;
+}
+header .menu-section ul li a {
+    text-decoration: none;
+    color: red;
+    margin: 22px 37px;
+    font-size: 22px;
+    
+}
+header .menu-section ul li a :hover{
+    border-bottom: 5px solid white;
+}
+
+header .search-section {
+    position:absolute;
+    right: 33px;
+    bottom: 10px;
+    
+}
+
+header .search-section input{
+    font-size: 19px;
+    text-decoration: none;
+    color: white;
+   width: 220px;
+   height: 44px;
+   
+
+}
+header .search-section i{
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    font-size: 33px;
+    color: red;
+
+}
+
+
+/* asideee************************************ */
+main{
+    width: 100%;
+    height: 600px;
+    background-color: blueviolet;
+    position: relative;
+    left: 19px;
+    top: 15px;
+}
+
+main .left-photo .text-box {
+    position: absolute;
+    color: red;
+    width: 50%;
+    height: 200px;
+    top: 50%;
+    left: 50%;
+}
+.image img{
+    width: 50%;
+    height: 50%;
+} 
+main .left-photo .text-box h1{
+    font-size: 32px;
+    position: relative;
+    bottom: 45px;
+    right: 363px;
+    width: 400px;
+}
+
+main .left-photo .text-box p{
+    font-size: 23px;
+    position: relative;
+    right: px;
+    top: 103px;
+    width: 300px;
+    background-color: olive;
+    right: 345px;
+}
+
+
+main .right-section {
+    width: 40%;
+    height: 300px;
+    background-color: red;
+    
+}
+
+

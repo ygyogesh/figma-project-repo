@@ -1,0 +1,297 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+/* header start **************************** */
+header{
+    display: flex;
+    position: relative;
+    background-color: black;
+    height: 65px;
+    width: 100%;
+
+}
+header .left-section{
+    
+    display: flex;
+}
+
+
+
+header .left-section .img img  {
+    width: 155px;  
+    margin: 14px 35px;
+    color: white;
+}
+
+
+
+header .left-section .logo {
+    position: relative;
+}
+
+
+
+header .left-section .logo  {
+    
+   margin: 5px 13px;
+    
+
+}
+
+
+
+header .left-section .logo a   {
+   
+    text-decoration: none;
+    color: white;
+    padding: 11px 12px;
+    font-size: 44px;
+    
+}
+
+
+
+
+header .left-section .logo a :hover{
+    border-bottom: 4px solid red;
+}
+
+
+
+
+header .menu-section  {
+    position: absolute;
+    
+    left: 400px;
+    top: 5px;
+}
+
+
+
+header .menu-section ul{
+    display: flex;
+    
+}
+
+
+
+header .menu-section ul li{
+    list-style: none;
+}
+
+
+header .menu-section ul li a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    margin: 22px 33px;
+}
+
+
+
+
+header .search-section {
+    position: absolute;
+    top: 15px;
+    right: 100px;
+}
+
+
+
+header .search-section input {
+    color: white;
+    width: 200px;
+    height: 37px;
+    position: relative;
+    outline: 0;
+    border: 0;
+
+}
+
+
+
+header .search-section i{
+    position: absolute;
+    top: 1px;
+    left: 3px;
+    color:yellow;
+    font-size: 36px;
+}
+
+/* ***********************end header ********************************** */
+
+
+/* ************************  Main start ******************************** */
+
+main{
+    width: 100%;
+    height: 700px;
+    
+    position: relative;
+    display: flex;
+}
+
+
+
+
+
+main .left-photo {
+    width: 40%;
+    height: 401px;
+    background-color: chartreuse;
+    margin: 22px 33px;
+    
+}
+main .left-photo .text-box  h1 {
+    color: yellow;
+    position: absolute;
+    font-size: 33px;
+    left: 132px;
+    top: 358px
+
+}
+
+main .right-photo {
+    position: relative;
+    display: flex;
+    width: 50%;
+    
+    
+}
+main .right-photo .image {
+    position: relative;
+
+}
+main .right-photo .image img{
+    position: absolute;
+    margin: 22px 33px;
+}
+main .right-photo .text-box {
+    position: absolute;
+
+}
+main .right-photo .textbox p{
+    font-size: 22px;
+    color: blue;
+    position: absolute;
+    margin: 244px 33px;
+
+}
+main .right-photo .image1 {
+    position: absolute;
+}
+main .right-photo .image1 img {
+    margin: 23px 272px;
+}
+main .mid{
+    position: relative;
+    display: flex;
+    width: 200px;
+}
+
+main .mid .image {
+    position: absolute;
+}
+main .mid .image img{
+    position: absolute;
+    top: 317px;
+    right: 343px;
+}
+main .mid .image1{
+    position: relative;
+}
+/* main .mid .image1 img{
+    position: absolute;
+    top: 22px;
+    left: 22px;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* footer&&&&&&&&&&*((((((((((((((((((((/)))))))))))))))))))) */
+
+        footer{
+            width: 100%;
+            height: 300px;
+            position: relative;
+            background-color:gray;
+            display: flex;
+        }
+        footer .main-footer .textbox{
+           display: flex; 
+           
+        }
+        footer .main-footer .textbox h1{
+            color: white;
+            margin: 45px 108px;
+        }
+
+        footer .main-footer .ram ul{
+            position: absolute;
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+
+
+        }
+        footer .main-footer .ram ul li{
+            color: white;
+            text-decoration: none;
+            font-size: 22px;
+            margin: 6px 54px;
+            
+            
+           
+        }
+
+        
+        footer .main-footer .copyright{
+            position: absolute;
+            
+        }
+        footer .main-footer .copyright p{
+            font-size: 22px;
+            font: bolder;
+            color: white;
+            margin: 141px 34px;
+            font-weight: bold;
+
+        }
+        footer .main-footer .again ul{
+            position: absolute;
+            display: flex;
+            list-style: none;
+        }
+        footer .main-footer .again ul li{
+            font-size: 22px;
+            margin: 83px 33px;
+        }
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+

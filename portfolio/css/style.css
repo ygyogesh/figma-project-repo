@@ -1,0 +1,293 @@
+
+
+
+
+
+
+
+
+
+/* to make dark theme  */
+:root{
+    --primary-color:#edf2fc;
+    --secondary-color:#212121;
+   
+}
+
+.dark-theme{
+    --primary-color:#000106;
+    --secondary-color:#fff;
+}
+
+/* dark theme end  */
+
+/* nav start  */
+#nav1{
+   background: var(--primary-color);
+}
+
+
+/* toggle bar start  */
+
+#don{
+    color:var(--secondary-color);
+    background-color:var(--primary-color);
+}
+
+
+
+
+/* toggle bar end  */
+
+
+#yg{
+    margin: 0 auto  ;
+   
+    
+}
+#nav2{
+    margin-left: 50px;
+    margin-top: 25px;
+    color: var(--secondary-color);
+    font-size: 1.18rem;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   
+    }
+
+   #nav2:hover{
+    color: rgb(76, 240, 240);
+   } 
+
+/* button of letss connect  */
+#mouse {
+    /* border: 1px solid red; */
+    border: 2px solid var(--secondary-color);
+    margin-left: 90px;
+    font-size: 1.18rem;
+    font-weight: 600;
+    padding: 9px;
+    color: var(--secondary-color);
+    
+}
+
+#mouse:hover{
+    color:blueviolet
+    /* border: 3px solid black; */
+}
+
+
+
+
+#photo1 {
+    margin-top: 25px;
+    width: 50px;
+}
+
+#nav3{
+    /* position: fixed; */
+    height: 654px;
+    width: 100%;
+    background: var(--primary-color);
+    
+}
+
+
+/* moon photo  */
+#photo2{
+    width: 2.5em;
+    margin-left: 60px;
+    margin-top: 15px;
+}
+
+/* nav end  */
+
+/* container start   */
+
+.contiainer-fluid{
+    width: 100%;
+    height: 650px;
+    background: var(--primary-color);
+}
+
+
+
+
+
+
+
+#goru{
+    color: var(--secondary-color);
+}
+
+ h1 {
+    
+    padding-top: 150px;
+    padding-left: 100px;
+    width: 20%;
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+#yogesh{
+    color: blueviolet;
+}
+
+#results{
+    padding-left: 100px;
+    color: var(--secondary-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* button animation start  */
+
+.glow-on-hover {
+    width: 180px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: var(--primary-color);
+    background: var(--secondary-color);
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+    margin-left: 100px;
+    
+}
+
+
+.glow-on-hover:before {
+    content: '';
+    background: linear-gradient(45deg, #e4b6b6, #ff7300, #fffb00, #48ff00, #9770eb, #002bff, #7a00ff, #9c670c, #ff0000);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(4px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 1;
+    transition: opacity .2s ease-in-out;
+    border-radius: 10px;
+}
+
+.glow-on-hover:active {
+    color: var(--secondary-color);
+}
+
+.glow-on-hover:active:after {
+    background: transparent;
+}
+
+.glow-on-hover:hover:before {
+    opacity: 1;
+}
+
+.glow-on-hover:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+    background: var(--secondary-color);
+    left: 0;
+    top: 0;
+    border-radius: 10px;
+}
+
+@keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+}
+
+/* button animation finsih  */
+
+/* icon  */
+.icon {
+    margin-top: 10px;
+    margin-left: 100px;
+    font-size: 20px;
+   
+}
+#icon1{
+    margin: 20px;
+    color: var(--secondary-color);
+
+}
+#icon2{
+    margin: 20px;
+    color: var(--secondary-color);
+
+}
+#icon3{
+    margin: 20px;
+    color: var(--secondary-color);
+
+}
+
+
+/* photo mine  */
+
+
+
+#chitra {
+    margin-top: 60px;
+    margin-left: 100px;
+    width: 48%;
+    border-radius: 10px;
+    
+}
+#chitra1 {
+    width: 20%;
+    margin-bottom: 200px;
+}
+
+
+
+
+/* responsiveness */
+@media only screen and (max-width: 390px) {
+    h1 {
+      margin-right: 40px;
+    }
+    #results{
+        margin-right: 104px;
+    }
+    #nav3{
+        height: 1100px;
+        color: var(--primary-color);
+    }
+    #mouse{
+        position: relative;
+        right: 80px;
+        width: 200px;
+        margin-top: 20px;
+        }
+  }
+
+  @media only screen and (max-width: 600px) {
+    h1 {
+      margin-right: 40px;
+    }
+    #results{
+        margin-right: 104px;
+    }
+    #nav3{
+        height: 1100px;
+        color: var(--primary-color);
+    }
+    #mouse{
+        position: relative;
+        right: 120px;
+        width: 200px;
+        margin-top: 20px;
+        }
+
+  }
+
+

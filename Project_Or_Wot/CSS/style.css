@@ -1,0 +1,158 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 100%;
+    background-color: #F6F1F1;
+    height: 745px;
+    position: fixed;
+}
+.box{
+    background-color: #F6F1F1;
+    width: 80%;
+    height: 600px;
+    margin: 80px 0 0 200px;
+   
+    box-shadow: 5px 5px 5px 5px;
+    position: relative;
+    bottom: 30px;
+}
+.profile img {
+    width: 114px;
+    position: relative;
+    bottom: 46px;
+    left: 19px;
+
+  
+  
+      
+}
+
+
+
+
+
+
+
+.yogesh img {
+    width: auto;
+    /* height:650px; */
+    position: relative;
+    left: 800px;
+    bottom: 100px;
+
+
+/* 
+    Width: 50px;
+    Height:50px; */
+
+    border-radius: 50%;
+overflow: hidden;
+transition: all 2s ease-in-out;
+    
+}
+
+.yogesh img:hover {
+  transform: rotate(1800deg) scale(1);
+}
+
+nav ul  {
+   position: absolute;
+   top: 0;
+   right: 300px;
+   display: flex;
+
+}
+ nav ul li {
+    list-style-type: none;
+    min-width: 120px;
+
+}
+
+ nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 22px;
+    font-family: 'Noto Serif', serif;
+    font-weight: bolder;
+    /* text-decoration: underline; */
+}
+
+/* .nav ul li:nth-child(){
+    color: white;
+    background-color: red;
+    padding: 12px;
+    border-radius: 6px;
+} */
+
+
+.nav ul li a:hover{
+    background-color: black;
+    color: white;
+    padding: 12px;
+    border-radius: 6px;
+    transition: 0.5s;
+    opacity: 0.5s;
+    text-decoration: underline;
+}
+
+/* copy and paste */
+
+.typewriter h1 {
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid rgb(10, 9, 9); /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .10em; /* Adjust as needed */
+    animation: 
+      typing 4.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }  
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: rgb(0, 38, 255); }
+  }
+
+  /* copy and pastre */
+  .typewriter{
+    position: relative;
+    bottom: 300px;
+    left: 80px;
+  }
+.button button{
+    position: relative;
+    bottom: 280px;
+    left: 100px;
+    padding: 14px;
+    border-radius: 12px;
+    color: rgb(21, 17, 11);
+    background-color: greenyellow;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+.button button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.7s;
+    opacity: 0.6s;
+
+}
+
+
+
+  .animation h1:hover{
+    opacity:5;
+color:rgb(253, 138, 138);
+  }
+
+
